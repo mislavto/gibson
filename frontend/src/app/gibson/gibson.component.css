@@ -1,0 +1,75 @@
+table{
+  width: 50%;
+  margin: 10% auto 0;
+}
+
+td{
+  padding: 0 !important;
+  text-align: center !important;
+  width: 10%;
+}
+
+th{
+  text-align: center !important;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.actions-field{
+  width: 15%;
+}
+
+.actions-field button{
+  margin-right: 5px;
+}
+
+.details-button{
+  background-color: #bce6eb;
+}
+
+.delete-button{
+  font-size: 35px;
+  color: red;
+}
+
+.edit-button{
+  font-size: 35px;
+  color: #0f8492;
+}
+.delete-button:hover{
+  cursor: pointer;
+  color: #bce6eb;
+}
+
+.edit-button:hover{
+  color: #bce6eb;
+  cursor: pointer;
+}
+
+mat-toolbar{
+  background-color: #03303b;
+  height: 70px;
+}
+
+.add-product-button{
+  background-color: #03303b;
+  margin-left: 69.3%;
+  margin-top: 10px;
+}
+
+.add-product-button:hover{
+  background-color: transparent;
+  color: black;
+}
+
+.search-product{
+  font-size: 15px;
+  margin-left: 65%;
+  width: 100%;
+}
+
+.paginator{
+  width: 50%;
+  margin-left: 25%;
+}
